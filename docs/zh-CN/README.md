@@ -5,10 +5,10 @@
 **免费**的 `rweb.site` 子域名，可用于您的网站、开源项目和其它内容。快来获取您的专属子域名！<br><br>
 
 [![](https://img.shields.io/badge/许可-MIT-%23EFEFEF?style=flat-square&logoColor=white&labelColor=black)](/LICENSE)
-[![](https://img.shields.io/github/issues-pr-closed-raw/katorlys/katorlys.github.io?style=flat-square&logoColor=white&label=申请总数&labelColor=black&color=%2379E096)](https://github.com/katorlys/rweb.site/pulls)
-[![](https://img.shields.io/github/contributors-anon/katorlys/katorlys.github.io?style=flat-square&logoColor=white&label=申请人数&labelColor=black&color=%23FFC868)](https://github.com/katorlys/rweb.site/graphs/contributors)
-[![](https://img.shields.io/github/commit-activity/m/katorlys/katorlys.github.io?style=flat-square&logoColor=white&label=频率&labelColor=black&color=%2377CCF6)](https://github.com/katorlys/rweb.site/pulse/monthly)
-[![](https://img.shields.io/github/stars/katorlys/katorlys.github.io?style=flat-square&logoColor=white&label=星标&labelColor=black&color=%23FF97A8)](https://github.com/katorlys/rweb.site/stargazers)
+[![](https://img.shields.io/github/issues-pr-closed-raw/katorlys/rweb.site?style=flat-square&logoColor=white&label=申请总数&labelColor=black&color=%2379E096)](https://github.com/katorlys/rweb.site/pulls)
+[![](https://img.shields.io/github/contributors-anon/katorlys/rweb.site?style=flat-square&logoColor=white&label=申请人数&labelColor=black&color=%23FFC868)](https://github.com/katorlys/rweb.site/graphs/contributors)
+[![](https://img.shields.io/github/commit-activity/m/katorlys/rweb.site?style=flat-square&logoColor=white&label=频率&labelColor=black&color=%2377CCF6)](https://github.com/katorlys/rweb.site/pulse/monthly)
+[![](https://img.shields.io/github/stars/katorlys/rweb.site?style=flat-square&logoColor=white&label=星标&labelColor=black&color=%23FF97A8)](https://github.com/katorlys/rweb.site/stargazers)
 
 [English](/README.md) · **简体中文**
 

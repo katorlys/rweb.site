@@ -5,10 +5,10 @@
 **FREE** `rweb.site` subdomain for personal websites, open-source projects and more. Get your own short subdomain now!<br><br>
 
 [![](https://img.shields.io/badge/license-MIT-%23EFEFEF?style=flat-square&logoColor=white&labelColor=black)](/LICENSE)
-[![](https://img.shields.io/github/issues-pr-closed-raw/katorlys/katorlys.github.io?style=flat-square&logoColor=white&label=applications&labelColor=black&color=%2379E096)](https://github.com/katorlys/rweb.site/pulls)
-[![](https://img.shields.io/github/contributors-anon/katorlys/katorlys.github.io?style=flat-square&logoColor=white&label=applicants&labelColor=black&color=%23FFC868)](https://github.com/katorlys/rweb.site/graphs/contributors)
-[![](https://img.shields.io/github/commit-activity/m/katorlys/katorlys.github.io?style=flat-square&logoColor=white&label=frequency&labelColor=black&color=%2377CCF6)](https://github.com/katorlys/rweb.site/pulse/monthly)
-[![](https://img.shields.io/github/stars/katorlys/katorlys.github.io?style=flat-square&logoColor=white&label=stars&labelColor=black&color=%23FF97A8)](https://github.com/katorlys/rweb.site/stargazers)
+[![](https://img.shields.io/github/issues-pr-closed-raw/katorlys/rweb.site?style=flat-square&logoColor=white&label=applications&labelColor=black&color=%2379E096)](https://github.com/katorlys/rweb.site/pulls)
+[![](https://img.shields.io/github/contributors-anon/katorlys/rweb.site?style=flat-square&logoColor=white&label=applicants&labelColor=black&color=%23FFC868)](https://github.com/katorlys/rweb.site/graphs/contributors)
+[![](https://img.shields.io/github/commit-activity/m/katorlys/rweb.site?style=flat-square&logoColor=white&label=frequency&labelColor=black&color=%2377CCF6)](https://github.com/katorlys/rweb.site/pulse/monthly)
+[![](https://img.shields.io/github/stars/katorlys/rweb.site?style=flat-square&logoColor=white&label=stars&labelColor=black&color=%23FF97A8)](https://github.com/katorlys/rweb.site/stargazers)
 
 **English** · [简体中文](/docs/zh-CN/README.md)
 
