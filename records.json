@@ -1,8 +1,7 @@
 {
     "cname": {
-        "www": "katorlys.github.io/rweb.site",
-        "it": "raselshikdar.github.io/rasel"
-    },
+        "ByteCord": "bytecordweb.vercel.app/",
+       },
     "reserved": [
         "ai",
         "admin",
