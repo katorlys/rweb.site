@@ -1,10 +1,10 @@
 {
-  "cname": {
-    "www": "katorlys.github.io/rweb.site",
-    "it": "raselshikdar.github.io/rasel",
-    "bytecord": "bytecordweb.vercel.app",
-    "revvnik": "revvnik.github.io/portfolio"
-},
+    "cname": {
+      "bytecord": "bytecordweb.vercel.app",
+      "it": "raselshikdar.github.io/rasel",
+      "revvnik": "revvnik.github.io/portfolio"
+      "www": "katorlys.github.io/rweb.site",
+    },
     "reserved": [
         "ai",
         "admin",
