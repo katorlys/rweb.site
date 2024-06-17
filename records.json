@@ -1,11 +1,11 @@
-{
+    "p7prashant.rweb.site"
     "cname": {
       "bytecord": "bytecordweb.vercel.app",
       "codersplanet": "codersplanet.vercel.app",
       "it": "raselshikdar.github.io/rasel",
       "revvnik": "revvnik.github.io/portfolio",
       "softwares":"softwares-hub.vercel.app",
-      "www": "katorlys.github.io/rweb.site"  
+      "www": "p7prashant.github.io/rweb.site"  
     },
     "reserved": [
         "ai",
