@@ -1,13 +1,13 @@
 {
     "cname": {
+      "aserver": "aserver.vrtxx.uk",
       "bytecord": "bytecordweb.vercel.app",
       "codersplanet": "codersplanet.vercel.app",
+      "expensetracker": "expensetracker-amaankazi.pages.dev",
       "it": "raselshikdar.github.io/rasel",
       "revvnik": "revvnik.github.io/portfolio",
       "softwares":"softwares-hub.vercel.app",
       "www": "katorlys.github.io/rweb.site",
-      "aserver": "aserver.vrtxx.uk",
-      "expensetracker": "expensetracker-amaankazi.pages.dev"
     },
     "reserved": [
         "ai",
