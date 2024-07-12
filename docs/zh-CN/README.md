@@ -1,5 +1,5 @@
 <div align="center">
-<!-- <a href="https://github.com/katorlys/rweb.site"><img src="/" height="75"></a> -->
+<a href="https://github.com/katorlys/rweb.site"><img src="/cover.png"></a>
 <h1>rweb.site</h1>
 
 **免费**的 `rweb.site` 子域名，可用于您的网站、开源项目和其它内容。快来获取您的专属子域名！<br><br>
@@ -9,6 +9,8 @@
 [![](https://img.shields.io/github/contributors-anon/katorlys/rweb.site?style=flat-square&logoColor=white&label=申请人数&labelColor=black&color=%23FFC868)](https://github.com/katorlys/rweb.site/graphs/contributors)
 [![](https://img.shields.io/github/commit-activity/m/katorlys/rweb.site?style=flat-square&logoColor=white&label=频率&labelColor=black&color=%2377CCF6)](https://github.com/katorlys/rweb.site/pulse/monthly)
 [![](https://img.shields.io/github/stars/katorlys/rweb.site?style=flat-square&logoColor=white&label=星标&labelColor=black&color=%23FF97A8)](https://github.com/katorlys/rweb.site/stargazers)
+
+[![](https://img.shields.io/badge/捐赠-域名注册费用-%23FF96EE?style=flat-square&logo=buymeacoffee&logoColor=white&labelColor=black)](https://www.buymeacoffee.com/katorly)
 
 [English](/README.md) · **简体中文**
 
@@ -44,5 +46,14 @@
 
 **Q:** 可以用于我的商业项目吗？  
 **A:** 可以。  
+
+**Q:** 怎么给我的项目添加自定义域名？  
+**A:** 请前往我们的 [Wiki](https://github.com/katorlys/rweb.site/wiki)，或者在互联网上搜索教程。  
+
+
+## 致谢
+感谢 [Gcore](https://gcore.com/dns) 为我们提供的 DNS 解析服务。  
+
+[![Gcore](/gcore_logo.svg)](https://gcore.com/dns)  
 
 

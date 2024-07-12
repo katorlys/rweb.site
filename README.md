@@ -1,5 +1,5 @@
 <div align="center">
-<!-- <a href="https://github.com/katorlys/rweb.site"><img src="/" height="75"></a> -->
+<a href="https://github.com/katorlys/rweb.site"><img src="/cover.png"></a>
 <h1>rweb.site</h1>
 
 **FREE** `rweb.site` subdomain for personal websites, open-source projects and more. Get your own short subdomain now!<br><br>
@@ -9,6 +9,8 @@
 [![](https://img.shields.io/github/contributors-anon/katorlys/rweb.site?style=flat-square&logoColor=white&label=applicants&labelColor=black&color=%23FFC868)](https://github.com/katorlys/rweb.site/graphs/contributors)
 [![](https://img.shields.io/github/commit-activity/m/katorlys/rweb.site?style=flat-square&logoColor=white&label=frequency&labelColor=black&color=%2377CCF6)](https://github.com/katorlys/rweb.site/pulse/monthly)
 [![](https://img.shields.io/github/stars/katorlys/rweb.site?style=flat-square&logoColor=white&label=stars&labelColor=black&color=%23FF97A8)](https://github.com/katorlys/rweb.site/stargazers)
+
+[![](https://img.shields.io/badge/Donate-for%20registrar%20fees-%23FF96EE?style=flat-square&logo=buymeacoffee&logoColor=white&labelColor=black)](https://www.buymeacoffee.com/katorly)
 
 **English** · [简体中文](/docs/zh-CN/README.md)
 
@@ -51,4 +53,11 @@ Sometimes, you just want a short and easy-to-remember domain for your project or
 **Q:** Can I use it for my commercial projects?  
 **A:** Yes, you can.  
 
+**Q:** How to add a custom domain for my project?  
+**A:** Please go to our [Wiki](https://github.com/katorlys/rweb.site/wiki), or search for the tutorial on the internet.  
 
+
+## Credit
+Thanks to [Gcore](https://gcore.com) for their generous DNS service.  
+
+[![Gcore](/gcore_logo.svg)](https://gcore.com/dns)  
