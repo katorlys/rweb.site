@@ -1,5 +1,6 @@
 {
     "cname": {
+      "aryan": "aryxnn.vercel.app",
       "aserver": "aserver.vrtxx.uk",
       "bytecord": "bytecordweb.vercel.app",
       "codersplanet": "codersplanet.vercel.app",
@@ -8,7 +9,7 @@
       "revvnik": "revvnik.github.io/portfolio",
       "softwares":"softwares-hub.vercel.app",
       "www": "katorlys.github.io/rweb.site",
-      "1dst": "1d10t1c-stud10s.github.io"
+      "1dst": "1d10t1c-stud10s.github.io",
     },
     "reserved": [
         "ai",
