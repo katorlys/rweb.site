@@ -4,14 +4,14 @@
       "aserver": "aserver.vrtxx.uk",
       "bytecord": "bytecordweb.vercel.app",
       "codersplanet": "codersplanet.vercel.app",
+      "dex": "mercury-mocha-chi.vercel.app",
       "expensetracker": "expensetracker-amaankazi.pages.dev",
       "go": "skibidi-neon.vercel.app",
       "it": "raselshikdar.github.io/rasel",
       "revvnik": "revvnik.github.io/portfolio",
       "softwares":"softwares-hub.vercel.app",
       "www": "katorlys.github.io/rweb.site",
-      "1dst": "1d10t1c-stud10s.github.io",
-      "dex": "mercury-mocha-chi.vercel.app/",
+      "1dst": "1d10t1c-stud10s.github.io"
     },
     "reserved": [
         "ai",
