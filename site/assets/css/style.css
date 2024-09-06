@@ -1,0 +1,188 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+body {
+    font-family: "Geist", sans-serif;
+    background-color: #010409;
+}
+
+.icons {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    top: 0;
+    padding: 2rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-top: -4rem;
+}
+
+.header {
+    padding: 2.5rem;
+    text-align: center;
+}
+
+.header h1 {
+    padding: 1rem;
+    font-size: 3rem;
+    color: #FFF;
+}
+
+.header p {
+    font-size: 1.25rem;
+    color: #EAEAEA;
+    /*width: 80vh;*/
+}
+
+.content form .input-container {
+    position: relative;
+    display: inline-block;
+}
+.content form .input-container::after {
+    content: ".rweb.site";
+    position: absolute;
+    right: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #EDEDED;
+    font-size: 1.25rem;
+    pointer-events: none;
+}
+
+.content form input {
+    padding: 0.75rem 7rem 0.75rem 1.5rem;
+    width: 60vh;
+    color: #EDEDED;
+    font-size: 1.25rem;
+    border: 2px solid #242424;
+    border-radius: 50px 6px 6px 50px;
+    background-color: #0A0A0A;
+    transition: 0.25s;
+}
+.content form input:focus {
+    border: 2px solid #999999;
+    box-shadow: 0 0 0 3px #333333;
+    outline: none;
+    transition: 0.25s;
+}
+.content form input::placeholder {
+    color: #757575;
+}
+.content form input::selection {
+    color: #000;
+    background-color: #EAEAEA;
+}
+.content form input::-moz-selection {
+    color: #000;
+    background-color: #EAEAEA;
+}
+
+.content form button {
+    padding: 0.75rem;
+    width: 20vh;
+    font-size: 1.25rem;
+    border: 2px solid #EDEDED;
+    border-radius: 6px 50px 50px 6px;
+    background-color: #EDEDED;
+    color: #000;
+    cursor: pointer;
+    transition: 0.25s;
+}
+.content form button:hover {
+    background-color: #CCCCCC;
+    border: 2px solid #CCCCCC;
+    transition: 0.25s;
+}
+
+.content form button:disabled {
+    background-color: #999999;
+    border: 2px solid #999999;
+    cursor: not-allowed;
+}
+
+.footer {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    bottom: 0;
+    padding: 1rem;
+}
+
+.footer p {
+    text-align: center;
+    font-size: 1rem;
+    color: #DFDFDF;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #CCCCCC;
+    transition: 0.25s;
+}
+.footer a:hover {
+    color: #FFF;
+    transition: 0.25s;
+}
+
+@media (max-width: 768px) {
+    .header h1 {
+        font-size: 2.5rem;
+    }
+
+    .header p {
+        font-size: 1rem;
+    }
+
+    .container {
+        margin-top: -3rem;
+    }
+
+    .content form input {
+        padding: 0.75rem 5rem 0.75rem 1.5rem;
+        width: 50vh;
+        font-size: 1rem;
+    }
+    .content form .input-container::after {
+        font-size: 1rem;
+    }
+
+    .content form button {
+        padding: 0.75rem;
+        width: 15vh;
+        font-size: 1rem;
+    }
+
+    .footer p {
+        font-size: 0.75rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .content form input {
+        width: 30vh;
+    }
+}
+
+@media (max-width: 320px) {
+    .content form input {
+        width: 20vh;
+    }
+}

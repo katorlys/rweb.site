@@ -51,6 +51,10 @@
 **A:** 请前往我们的 [Wiki](https://github.com/katorlys/rweb.site/wiki)，或者在互联网上搜索教程。  
 
 
+## 举报滥用
+如果您发现任何现有网站违反我们的服务条款、违法或侵犯了您的合法权益，请发送电子邮件至  [lab@katorly.com](mailto:lab@katorly.com)。
+
+
 ## 致谢
 感谢 [Gcore](https://gcore.com/dns) 为我们提供的 DNS 解析服务。  
 
