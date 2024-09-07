@@ -27,9 +27,9 @@
 -->
 
 - [ ] I have starred the repository.
-- [ ] I have read and accepted the [Terms of Service](/Terms-of-Service.md).
+- [ ] I have read and accepted the [Terms of Service](https://github.com/katorlys/rweb.site/blob/main/Terms-of-Service.md).
 - [ ] There is reasonable content on my site.
-- [ ] I have configured a custom domain for my site.
+- [ ] I have configured a custom domain for my site. <!-- Tutorial: https://github.com/katorlys/rweb.site/wiki -->
 
 
 
