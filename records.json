@@ -1,6 +1,5 @@
 {
   "cname": {
-    "polarhost": "polarhost.github.io"
     "aryan": "aryxnn.vercel.app",
     "aserver": "aserver.vrtxx.uk",
     "bytecord": "bytecordweb.vercel.app",
@@ -9,6 +8,7 @@
     "dex": "mercury-mocha-chi.vercel.app",
     "expensetracker": "expensetracker-amaankazi.pages.dev",
     "go": "skibidi-neon.vercel.app",
+    "polarhost": "polarhost.github.io",
     "revvnik": "revvnik.github.io/portfolio",
     "softwares": "softwares-hub.vercel.app",
     "weblog": "weblogbd.vercel.app",
