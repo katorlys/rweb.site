@@ -8,6 +8,7 @@
     "dex": "dex-frontend-vercel.vercel.app",
     "expensetracker": "expensetracker-amaankazi.pages.dev",
     "go": "skibidi-neon.vercel.app",
+    "osd": "opensubdomains.github.io/website",
     "polarhost": "polarhost.github.io",
     "qurancompanion": "tapsaja.github.io/qcweb",
     "revvnik": "revvnik.github.io/portfolio",
@@ -15,8 +16,7 @@
     "sportlivelk": "383zyusx94sis.ahost.marscode.site",
     "weblog": "weblogbd.vercel.app",
     "www": "katorlys.github.io/rweb.site",
-    "1dst": "1d10t1c-stud10s.github.io",
-    "osd": "opensubdomains.github.io/website"
+    "1dst": "1d10t1c-stud10s.github.io"
   },
   "reserved": [
     "ai",
