@@ -13,6 +13,7 @@
     "go": "skibidi-neon.vercel.app",
     "hasif": "hasifjalil.serv00.net",
     "mwth": "blogsmwth.vercel.app",
+    "onbuch": "onbuch.vercel.app",
     "osd": "opensubdomains.github.io/website",
     "polarhost": "polarhost.github.io",
     "qurancompanion": "tapsaja.github.io/qcweb",
@@ -23,8 +24,7 @@
     "weblog": "weblogbd.vercel.app",
     "www": "katorlys.github.io/rweb.site",
     "1dst": "1d10t1c-stud10s.github.io",
-    "yixboost": "naslambers.synology.me",
-    "onbuch": "onbuch.vercel.app"
+    "yixboost": "naslambers.synology.me"
   },
   "reserved": [
     "ai",
