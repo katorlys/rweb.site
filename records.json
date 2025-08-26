@@ -1,6 +1,5 @@
 {
   "cname": {
-    "zs": "zs-3.github.io",
     "aryan": "aryxnn.vercel.app",
     "ancxx": "anci4nttt.vercel.app",
     "aserver": "aserver.vrtxx.uk",
@@ -26,7 +25,8 @@
     "weblog": "weblogbd.vercel.app",
     "www": "katorlys.github.io/rweb.site",
     "1dst": "1d10t1c-stud10s.github.io",
-    "yixboost": "naslambers.synology.me"
+    "yixboost": "naslambers.synology.me",
+    "zs": "zs-3.github.io"
   },
   "reserved": [
     "ai",
