@@ -1,0 +1,6 @@
+queue_rules:
+  - name: luxbook
+    allow_queue_branch_edit: true
+    autoqueue: true
+merge_queue:
+  skip_intermediate_results: true
