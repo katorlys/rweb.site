@@ -1,5 +1,5 @@
 queue_rules:
-  - name: luxbook
+  - name: luxhost
     allow_queue_branch_edit: true
     autoqueue: true
 merge_queue:
