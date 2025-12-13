@@ -15,6 +15,7 @@
     "devlog": "rblog-bd.vercel.app",
     "dex": "dex-frontend-vercel.vercel.app",
     "expensetracker": "expensetracker-amaankazi.pages.dev",
+    "fh": "portfolio-jet-two-84.vercel.app",
     "gh-guides": "harys722.github.io/github-guides",
     "go": "skibidi-neon.vercel.app",
     "hasif": "hasifjalil.serv00.net",
@@ -38,8 +39,7 @@
     "weblog": "weblogbd.vercel.app",
     "www": "katorlys.github.io/rweb.site",
     "1dst": "1d10t1c-stud10s.github.io",
-    "yixboost": "naslambers.synology.me",
-    "fh": "343c089d0873a9fd.vercel-dns-017.com."
+    "yixboost": "naslambers.synology.me"
   },
   "reserved": [
     "ai",
