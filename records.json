@@ -1,6 +1,5 @@
 {
   "cname": {
-    "ddinghub":"chococharcoal.github.io",
     "1dst": "1d10t1c-stud10s.github.io",
     "7ames": "7ames-website.pages.dev",
     "aashish-anil": "ashphotfolio.vercel.app",
@@ -19,6 +18,7 @@
     "colin": "proxy.col1n.fr",
     "cracked": "hxncvxz.github.io/cracked",
     "dashboard-devuefn": "dashboard-devuefn.vercel.app",
+    "ddinghub":"chococharcoal.github.io",
     "devlog": "rblog-bd.vercel.app",
     "devuefn": "devuefn.vercel.app",
     "dex": "dex-frontend-vercel.vercel.app",
@@ -56,6 +56,7 @@
     "softwares": "softwares-hub.vercel.app",
     "sportlivelk": "383zyusx94sis.ahost.marscode.site",
     "ssaj": "hunterxcyber.github.io/ssaj",
+    "stempel": "stempel.leapcell.app",
     "studytool": "studytool-cj0.pages.dev",
     "symbiote": "symbiotecode.github.io",
     "tasin": "tasinone.blogspot.com",
@@ -68,8 +69,7 @@
     "weblog": "weblogbd.vercel.app",
     "whoshub": "frdze.github.io",
     "www": "katorlys.github.io/rweb.site",
-    "yixboost": "naslambers.synology.me",
-    "stempel": "stempel.leapcell.app"
+    "yixboost": "naslambers.synology.me"
   },
   "reserved": [
     "ai",
