@@ -1,6 +1,5 @@
 {
   "cname": {
-    "ddinghub":"chococharcoal.github.io",
     "1dst": "1d10t1c-stud10s.github.io",
     "7ames": "7ames-website.pages.dev",
     "aashish-anil": "ashphotfolio.vercel.app",
@@ -19,6 +18,7 @@
     "colin": "proxy.col1n.fr",
     "cracked": "hxncvxz.github.io/cracked",
     "dashboard-devuefn": "dashboard-devuefn.vercel.app",
+    "ddinghub":"chococharcoal.github.io",
     "devlog": "rblog-bd.vercel.app",
     "devuefn": "devuefn.vercel.app",
     "dex": "dex-frontend-vercel.vercel.app",
@@ -70,6 +70,10 @@
     "www": "katorlys.github.io/rweb.site",
     "yixboost": "naslambers.synology.me"
   },
+  "ns": {
+    "easyassets": "ns1.vercel-dns.com",
+    "easyassets": "ns2.vercel-dns.com"
+  }
   "reserved": [
     "ai",
     "admin",
