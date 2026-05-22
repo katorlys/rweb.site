@@ -75,7 +75,7 @@
   "ns": {
     "easyassets": "ns1.vercel-dns.com",
     "easyassets": "ns2.vercel-dns.com"
-  }
+  },
   "reserved": [
     "ai",
     "admin",
