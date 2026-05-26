@@ -7,7 +7,7 @@
     "ajabat": "ajabat.pages.dev",
     "alittlebirdietoldme": "alessiadigennaro-arch.github.io",
     "ancxx": "anci4nttt.vercel.app",
-    "arindhimar":"arin-portfolio-git-main-alvfcoc-gmailcoms-projects.vercel.app",
+    "arindhimar": "arin-portfolio-git-main-alvfcoc-gmailcoms-projects.vercel.app",
     "aryan": "aryxnn.vercel.app",
     "aserver": "aserver.vrtxx.uk",
     "assets": "assetsportal.blogspot.com",
@@ -19,7 +19,7 @@
     "colin": "proxy.col1n.fr",
     "cracked": "hxncvxz.github.io/cracked",
     "dashboard-devuefn": "dashboard-devuefn.vercel.app",
-    "ddinghub":"chococharcoal.github.io",
+    "ddinghub": "chococharcoal.github.io",
     "devlog": "rblog-bd.vercel.app",
     "devuefn": "devuefn.vercel.app",
     "dex": "dex-frontend-vercel.vercel.app",
@@ -35,8 +35,8 @@
     "go": "skibidi-neon.vercel.app",
     "hasif": "hasifjalil.serv00.net",
     "hqnation": "hqnation.vercel.app",
-    "itsmylink": "itsmylink.vercel.app",
     "inference-foundry": "inference-foundry.github.io",
+    "itsmylink": "itsmylink.vercel.app",
     "jerenwa": "jerenwa.github.io",
     "kash": "kash-web.vercel.app",
     "liu": "cname.tony-liu.com",
@@ -74,8 +74,10 @@
     "yixboost": "naslambers.synology.me"
   },
   "ns": {
-    "easyassets": "ns1.vercel-dns.com",
-    "easyassets": "ns2.vercel-dns.com"
+    "easyassets": [
+      "ns1.vercel-dns.com",
+      "ns2.vercel-dns.com"
+    ]
   },
   "reserved": [
     "ai",

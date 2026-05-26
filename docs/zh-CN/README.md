@@ -21,7 +21,7 @@
 1. 🌟 给本仓库一个免费的 Star.
 2. 🍴 Fork 本仓库.
 3. 🧠 为您的站点取一个独一无二的子域名。必须大于等于 2 个字符。
-4. 🔍 打开 [`records.json`](/records.json)，按下 `Ctrl`+`F5` 查找子域名是否已存在。如果是，再取一个另外的名字。
+4. 🔍 打开 [`records.json`](/records.json)，按下 `Ctrl`+`F` 查找子域名是否已存在。如果是，再取一个另外的名字。
 5. ⚙️ 在您的站点中设置自定义域名。
 6. 📄 将子域名添加到 [`records.json`](/records.json) 文件的 `cname` 中。例如：`"xxx": "your-site.vercel.app"`.
 7. 🥰 在本仓库新建拉取请求。
