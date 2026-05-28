@@ -182,5 +182,9 @@
     "workspace",
     "xxx",
     "zeabur"
-  ]
+  ],
+  "nered": {
+    "cname": "nered30.github.io",
+    "proxied": true
+  },
 }
