@@ -21,7 +21,7 @@
 1. 🌟 Star this repo.
 2. 🍴 Fork this repo.
 3. 🧠 Think of a unique subdomain for your site. It should be no less than 2 words. 
-4. 🔍 Open [`records.json`](/records.json), and use `Ctrl`+`F5` to check whether it was claimed. If it was, think of another domain.
+4. 🔍 Open [`records.json`](/records.json), and use `Ctrl`+`F` to check whether it was claimed. If it was, think of another domain.
 5. ⚙️ Set the custom subdomain for your site.
 6. 📄 Add the subdomain to `cname` in [`records.json`](/records.json) file, for example, `"xxx": "your-site.vercel.app"`.
 7. 🥰 Make a Pull Request to this repo.

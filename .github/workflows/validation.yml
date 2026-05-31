@@ -1,0 +1,69 @@
+name: records.json validation
+
+# If invalid, fail the check.
+# If valid and already sorted, pass without changes.
+# If valid but not sorted:
+# - For Pull Requests, fail the check.
+# - For pushes to main, commit the sorted records.json automatically.
+
+on:
+  pull_request:
+    paths:
+      - records.json
+  push:
+    branches:
+      - main
+    paths:
+      - records.json
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  validate-and-sort:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Validate and sort
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+        run: |
+          set -e
+
+          if ! python - <<'PY'
+          import json
+          from pathlib import Path
+          path = Path("records.json")
+          with path.open('r', encoding='utf-8') as f:
+              data = json.load(f)
+          with path.open('w', encoding='utf-8', newline='\n') as f:
+              json.dump(data, f, ensure_ascii=False, indent=2, sort_keys=True)
+              f.write("\n")
+          PY
+          then
+            echo "::error file=records.json::records.json contains invalid JSON."
+            if [ "${{ github.event_name }}" = "pull_request" ]; then
+              gh pr comment "$PR_NUMBER" --body "Hello! records.json is invalid. Please fix the JSON syntax so we can merge your Pull Request." || true
+            fi
+            exit 1
+          fi
+
+          if git diff --quiet -- records.json; then
+            exit 0
+          fi
+
+          if [ "${{ github.event_name }}" = "pull_request" ]; then
+            echo "::error file=records.json::records.json is not sorted."
+            gh pr comment "$PR_NUMBER" --body "Hello! records.json is not sorted. Please sort it so we can merge your Pull Request." || true
+            exit 1
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add records.json
+          git commit -m "chore: sort records.json"
+          git push
