@@ -51,6 +51,7 @@
     "obp": "obp.miniblacktw.myds.me",
     "onbuch": "onbuch.vercel.app",
     "osd": "opensubdomains.github.io/website",
+    "paraverte": "https://camilomurielph.github.io/portal-compartido",
     "primevest": "aae393f6be5e4023ec.v2.appdeploy.ai",
     "processium": "d35rmrxb872wu4.cloudfront.net",
     "projectdan": "dandhany.github.io",
@@ -77,12 +78,11 @@
     "uefndevkit": "uefndevkit.vercel.app",
     "vecctr": "vecctr.vercel.app",
     "versy-docs": "clynbmilio.github.io",
-    "paraverte": "https://camilomurielph.github.io/portal-compartido/",
     "weblog": "weblogbd.vercel.app",
     "whoshub": "frdze.github.io",
     "www": "katorlys.github.io/rweb.site",
     "yixboost": "naslambers.synology.me"
-  }
+  },
   "ns": {
     "easyassets": [
       "ns1.vercel-dns.com",
