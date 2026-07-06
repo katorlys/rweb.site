@@ -46,6 +46,7 @@
     "liu": "cname.tony-liu.com",
     "luxhost": "luxstories.github.io",
     "maxvel187": "alternativeendpointdomains.vercel.app",
+    "moji-kakushi": "2ndnuts.github.io",
     "mwth": "blogsmwth.vercel.app",
     "nexora": "oshekharo.github.io",
     "obp": "obp.miniblacktw.myds.me",
@@ -82,7 +83,7 @@
     "whoshub": "frdze.github.io",
     "www": "katorlys.github.io/rweb.site",
     "yixboost": "naslambers.synology.me"
-  }
+  },
   "ns": {
     "easyassets": [
       "ns1.vercel-dns.com",
