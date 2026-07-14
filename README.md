@@ -1,5 +1,9 @@
 <div align="center">
 
+<a href="#">
+  <img src="https://github.com/katorlys/rweb.site/blob/main/assets/banner.png" width="100%">
+</a><br>
+
 <h1>rweb.site</h1>
 
 **FREE** `rweb.site` subdomain for personal websites, open-source projects and more. Get your own short subdomain now!<br><br>
@@ -20,7 +24,7 @@
 ## How to get one?
 1. 🌟 Star this repo.
 2. 🍴 Fork this repo.
-3. 🧠 Think of a unique subdomain for your site. It should be no less than 2 words. 
+3. 🧠 Think of a unique subdomain for your site. It should be at least 2 characters long.
 4. 🔍 Open [`records.json`](/records.json), and use `Ctrl`+`F` to check whether it was claimed. If it was, think of another domain.
 5. ⚙️ Set the custom subdomain for your site.
 6. 📄 Add the subdomain to `cname` in [`records.json`](/records.json) file, for example, `"xxx": "your-site.vercel.app"`.
@@ -42,7 +46,7 @@ Sometimes, you just want a short and easy-to-remember domain for your project or
 **A:** It stands for "revolutionary website" or "real website". You can also think of it as whatever you like.  
 
 **Q:** How to change or remove my subdomain?  
-**A:** Just modify [`records.json`](/records.json), and make a Pull Request to this repo.  
+**A:** Just add a CNAME record to [`records.json`](/records.json), and make a Pull Request to this repo.  
 
 **Q:** May I apply for more than one subdomain?  
 **A:** Yes, you can. However, starting from your second subdomain, you can only apply subdomains for your projects which have no less than 5 stars. If you are using [Github Pages](https://pages.github.com), we strongly recommend you to bind the subdomain to your `your-username.github.io` domain, so that you can use path-based routing for whatever you like.  
@@ -64,4 +68,4 @@ If you find any existing sites that violate our terms of service, break the law,
 ## Credit
 Thanks to [Gcore](https://gcore.com) for their generous DNS service.  
 
-[![Gcore](/gcore_logo.svg)](https://gcore.com/dns)  
+[![Gcore](./assets/gcore_logo.svg)](https://gcore.com/dns)  

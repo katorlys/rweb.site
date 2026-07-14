@@ -1,49 +1,268 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <title>Rweb.site - Free subdomain for personal websites, open-source projects and more.</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>rweb.site - Free subdomain for personal websites, open-source projects and more.</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta name="description" content="FREE rweb.site subdomain for personal websites, open-source projects and more. Get your own short subdomain now!">
-    <meta name="keywords" content="rweb.site, free domain, free subdomain, free for dev, custom domain, custom subdomain, rweb.site, github">
+  <meta name="description" content="Free rweb.site subdomain for personal websites, open-source projects and more. Get your own short domain now!">
+  <meta name="keywords" content="rweb.site, free domain, free subdomain, free for dev, custom domain, custom subdomain, rweb.site, github">
+  <meta name="author" content="Katorly Lab">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#FFFFFF">
 
-    <link rel="stylesheet" href="site/assets/css/style.css">
-    <link rel="stylesheet" href="site/assets/css/fonts.css">
+  <link rel="canonical" href="https://rweb.site/">
 
-    <script type="text/javascript" src="site/assets/js/script.js"></script>
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="rweb.site">
+  <meta property="og:title" content="rweb.site - Free subdomain for every developer">
+  <meta property="og:description" content="Free rweb.site subdomain for personal websites, open-source projects and more. Get your own short domain now!">
+  <meta property="og:url" content="https://rweb.site/">
+  <meta property="og:image" content="https://rweb.site/assets/banner.png">
+  <meta property="og:image:alt" content="rweb.site - Free subdomain for every developer">
 
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="rweb.site - Free subdomain for every developer">
+  <meta name="twitter:description" content="Free rweb.site subdomain for personal websites, open-source projects and more. Get your own short domain now!">
+  <meta name="twitter:image" content="https://rweb.site/assets/banner.png">
+  <meta name="twitter:image:alt" content="rweb.site - Free subdomain for every developer">
 
-    <link rel="icon" type="image/x-icon" href="site/img/favicon.ico">
-    <link rel="shortcut icon" href="site/img/favicon.ico" type="image/x-icon" />
+  <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+  <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon" />
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            poppins: ["Poppins", "sans-serif"]
+          }
+        }
+      }
+    }
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    .free-gradient {
+      background: linear-gradient(90deg, #FF3030 0%, #8F49FF 25%, #FF3030 50%, #8F49FF 75%, #FF3030 100%);
+      background-size: 400% 100%;
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+    }
+
+    .hero-gift:hover .free-gradient,
+    .hero-gift:focus-within .free-gradient {
+      animation: free-gradient-flow 4.8s linear infinite;
+    }
+
+    @keyframes free-gradient-flow {
+      from {
+        background-position: 0% 0;
+      }
+
+      to {
+        background-position: 200% 0;
+      }
+    }
+  </style>
 </head>
-<body>
 
-<div class="icons">
-    <a target="_blank" href="https://katorly.com"><img src="site/img/katorlylab-mark.svg" height="30px" alt="Katorly"></a>
-    <a target="_blank" href="https://github.com/katorlys/rweb.site"><img src="site/img/github-mark-white.svg" height="30px" alt="GitHub"></a>
-</div>
+<body class="min-h-screen overflow-hidden bg-white font-poppins text-black antialiased">
+  <div class="pointer-events-none fixed inset-0 -z-10 overflow-hidden">
+    <div class="absolute -left-56 top-1/2 h-96 w-96 scale-150 rounded-full bg-[#D9C2FF]/65 blur-3xl"></div>
+    <div class="absolute -right-40 top-1/2 h-96 w-96 scale-150 rounded-full bg-[#CAFF82]/75 blur-3xl"></div>
+  </div>
 
-<div class="container">
-    <div class="header">
-        <h1>Rweb.site</h1>
-        <p>FREE subdomain for personal websites, open-source projects and more.</p>
-    </div>
-    <div class="content">
-        <div class="form">
-            <form>
-                <label class="input-container">
-                    <input type="text" name="subdomain" placeholder="name" maxlength="63" required>
-                </label>
-                <button type="submit" disabled>Add</button>
-            </form>
-        </div>
-    </div>
-</div>
+  <div class="mx-auto flex min-h-screen w-full max-w-screen flex-col p-6 sm:p-12">
+    <header class="flex items-center justify-between">
+      <a href="https://katorly.com" aria-label="Katorly Lab" target="_blank" rel="noopener noreferrer" class="inline-flex h-10 w-10 items-center justify-center transition active:scale-90 focus:outline-none">
+        <img src="assets/img/katorlylab-mark.svg" alt="Katorly Lab" class="w-6 h-6 sm:h-8 sm:w-8">
+      </a>
+      <a href="https://github.com/katorlys/rweb.site" target="_blank" rel="noopener noreferrer" aria-label="Star us on GitHub" class="inline-flex h-10 w-10 items-center justify-center transition active:scale-90 focus:outline-none">
+        <img src="assets/img/github-mark.svg" alt="" class="w-6 h-6 sm:h-8 sm:w-8 brightness-0">
+      </a>
+    </header>
 
-<div class="footer">
-    <p>&copy; 2024-<span id="footerYear"></span> <a target="_blank" href="https://katorly.com">Katorly Lab</a> &#183; <a href="mailto:lab@katorly.com">Report abuse</a> &#183; <a target="_blank" href="https://donate.katorly.com">Donate</a></p>
-</div>
+    <main class="flex flex-1 items-center justify-center text-center pb-16">
+      <section class="w-full max-w-3xl" aria-labelledby="hero-title">
+        <h1 id="hero-title" class="mx-auto font-medium leading-normal tracking-normal text-3xl sm:text-5xl">
+          <span class="inline-flex items-center justify-center">
+            <span class="hero-gift group inline-flex items-center justify-center">
+              <span class="free-gradient">Free</span>
+              <span class="relative inline-flex h-12 w-12 shrink-0 items-center justify-center sm:h-20 sm:w-20">
+                <img src="assets/img/gift.svg" alt="" class="absolute inset-0 h-full w-full opacity-100 transition-opacity duration-200 ease-out group-hover:opacity-0 group-focus-within:opacity-0">
+                <img src="assets/img/gift-open.svg" alt="" class="absolute inset-0 h-full w-full opacity-0 transition-opacity duration-200 ease-out group-hover:opacity-100 group-focus-within:opacity-100">
+              </span>
+            </span>
+            <span>subdomain</span>
+          </span>
+          <span class="block">for every developer.</span>
+        </h1>
 
+        <form id="checker-form" class="mx-auto mt-2 sm:mt-9 w-full max-w-lg" novalidate>
+          <div id="checker-control" class="flex h-12 sm:h-14 w-full min-w-0 overflow-hidden rounded-full border-2 border-black bg-white text-sm sm:text-lg shadow-sm transition-colors duration-300 ease-out focus-within:ring-4 focus-within:ring-black/10">
+            <label for="subdomain-input" class="sr-only">name</label>
+            <input id="subdomain-input" name="name" type="text" inputmode="url" autocomplete="off" spellcheck="false" placeholder="name" class="min-w-0 flex-1 rounded-l-full px-4 sm:px-6 text-black outline-none placeholder:text-neutral-400 disabled:cursor-not-allowed" aria-describedby="checker-message">
+            <span class="flex shrink-0 items-center px-2 sm:px-4 text-sm sm:text-lg">.rweb.site</span>
+            <button id="checker-button" type="submit" class="shrink-0 rounded-r-full bg-black text-sm w-16 sm:w-28 sm:text-lg font-medium text-white transition-colors duration-300 ease-out hover:bg-neutral-700 focus:outline-none disabled:cursor-not-allowed disabled:bg-neutral-400 disabled:hover:bg-neutral-400">Check</button>
+          </div>
+          <p id="checker-message" class="mt-3 min-h-6 px-5 text-left text-sm sm:text-base" role="status" aria-live="polite"></p>
+        </form>
+      </section>
+    </main>
+
+    <footer class="absolute bottom-0 left-0 right-0 pb-4 text-center text-neutral-500 text-sm sm:text-base">
+      <p>
+        &copy; 2024-2026 <a href="https://katorly.com" class="underline underline-offset-2 hover:text-neutral-900 transition">Katorly Lab</a>
+        <span aria-hidden="true">&nbsp;&middot;&nbsp;</span>
+        <a href="mailto:lab@katorly.com" class="underline underline-offset-2 hover:text-neutral-900 transition">Report abuse</a>
+        <span aria-hidden="true">&nbsp;&middot;&nbsp;</span>
+        <a href="https://katorly.com/donate" class="underline underline-offset-2 hover:text-neutral-900 transition">Donate</a>
+      </p>
+    </footer>
+  </div>
+
+  <script>
+    const form = document.querySelector("#checker-form");
+    const control = document.querySelector("#checker-control");
+    const input = document.querySelector("#subdomain-input");
+    const message = document.querySelector("#checker-message");
+    const button = document.querySelector("#checker-button");
+    const applyUrl = "https://github.com/katorlys/rweb.site#how-to-get-one";
+    const manualSearchUrl = "https://github.com/katorlys/rweb.site/blob/main/records.json";
+    let records = { cname: {}, ns: {}, reserved: [] };
+    let canApply = false;
+    let formDisabled = false;
+
+    const normalizeName = (value) => value.trim().toLowerCase();
+    const isValidName = (name) => /^[a-z0-9](?:[a-z0-9-]{0,61}[a-z0-9])?$/.test(name);
+
+    const stateClasses = {
+      neutral: {
+        control: "border-black focus-within:ring-black/10",
+        button: "bg-black hover:bg-neutral-700",
+        message: "text-black"
+      },
+      success: {
+        control: "border-emerald-600 focus-within:ring-emerald-600/15",
+        button: "bg-emerald-600 hover:bg-emerald-700",
+        message: "text-emerald-600"
+      },
+      error: {
+        control: "border-red-500 focus-within:ring-red-500/15",
+        button: "bg-red-500 hover:bg-red-600",
+        message: "text-red-500"
+      }
+    };
+
+    const setFormState = (state) => {
+      Object.values(stateClasses).forEach(({ control: controlClass, button: buttonClass }) => {
+        control.classList.remove(...controlClass.split(" "));
+        button.classList.remove(...buttonClass.split(" "));
+      });
+      control.classList.add(...stateClasses[state].control.split(" "));
+      button.classList.add(...stateClasses[state].button.split(" "));
+    };
+
+    const setMessage = (text, colorClass, html = false) => {
+      if (html) {
+        message.innerHTML = text;
+      } else {
+        message.textContent = text;
+      }
+      message.className = `mt-3 min-h-6 px-5 text-left text-sm font-medium ${colorClass} sm:text-base`;
+    };
+
+    const setButtonMode = (isAvailable) => {
+      canApply = isAvailable;
+      button.textContent = isAvailable ? "Go!" : "Check";
+    };
+
+    const setFormDisabled = (isDisabled) => {
+      formDisabled = isDisabled;
+      input.disabled = isDisabled;
+      button.disabled = isDisabled;
+      control.classList.toggle("opacity-60", isDisabled);
+    };
+
+    const checkName = () => {
+      const name = normalizeName(input.value);
+      setButtonMode(false);
+      setFormState("neutral");
+
+      if (!name) {
+        setMessage(" ", "text-black");
+        return;
+      }
+
+      if (name.length < 2) {
+        setFormState("error");
+        setMessage("At least 2 characters.", "text-red-500");
+        return;
+      }
+
+      if (!isValidName(name)) {
+        setFormState("error");
+        setMessage("Use letters, numbers, and hyphens only.", "text-red-500");
+        return;
+      }
+
+      const taken = Object.hasOwn(records.cname || {}, name)
+        || Object.hasOwn(records.ns || {}, name);
+      const reserved = (records.reserved || []).includes(name);
+
+      if (reserved) {
+        setFormState("error");
+        setMessage("This subdomain is reserved.", "text-red-500");
+        return;
+      }
+
+      if (taken) {
+        setFormState("error");
+        setMessage("This subdomain is already taken.", "text-red-500");
+        return;
+      }
+
+      setButtonMode(true);
+      setFormState("success");
+      setMessage("This subdomain is available. Apply now!", "text-emerald-600");
+    };
+
+    fetch("records.json")
+      .then((response) => response.json())
+      .then((data) => {
+        records = data;
+        setFormDisabled(false);
+        checkName();
+      })
+      .catch(() => {
+        setButtonMode(false);
+        setFormState("neutral");
+        setFormDisabled(true);
+        setMessage(`Unable to load records. Please <a href="${manualSearchUrl}" class="underline underline-offset-2 hover:text-neutral-700" target="_blank" rel="noopener noreferrer">search records.json manually</a>.`, "text-black", true);
+      });
+
+    form.addEventListener("submit", (event) => {
+      event.preventDefault();
+
+      if (formDisabled) {
+        return;
+      }
+
+      checkName();
+
+      if (canApply) {
+        window.location.href = applyUrl;
+      }
+    });
+
+    input.addEventListener("input", checkName);
+  </script>
 </body>
+
 </html>

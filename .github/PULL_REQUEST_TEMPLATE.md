@@ -6,20 +6,20 @@
 
 
 
-### 🌐 Website
+## 🌐 Website
 <!--
 
 🔗 Please provide the link and a screenshot of your site so that we can add the CNAME record for you. | 请提供您站点的链接和截图，以便我们为其添加 CNAME。
 
 -->
 
-**Link:** 
+Link: 
 
-**Screenshot:** 
+Screenshot: 
 
 
 
-### 📋 Checklist
+## 📋 Checklist
 <!--
 
 ✅ You have to tick all the boxes by changing `- [ ]` into `- [x]`. | 请将以下所有的 `- [ ]` 改成 `- [x]`。
