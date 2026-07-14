@@ -1,6 +1,5 @@
 {
   "cname": {
-    "qrc": "https://qrcoders-dun.vercel.app",
     "1dst": "1d10t1c-stud10s.github.io",
     "7ames": "7ames-website.pages.dev",
     "aashish-anil": "ashphotfolio.vercel.app",
@@ -57,6 +56,7 @@
     "processium": "d35rmrxb872wu4.cloudfront.net",
     "projectdan": "dandhany.github.io",
     "q4yn": "q4yn.github.io",
+    "qrc": "qrcoders-dun.vercel.app",
     "qurancompanion": "tapsaja.github.io/qcweb",
     "rajeev-cli": "cli-portfolio-flax.vercel.app",
     "rajeevnandan": "rajeev-portfolio-ebon.vercel.app",
