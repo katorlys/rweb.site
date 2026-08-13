@@ -1,0 +1,31 @@
+pull_request_rules:
+  - name: Keep PRs up to date
+    conditions:
+      - -draft
+      - "#commits-behind >= 1"
+    actions:
+      update:
+        bot_account: katorlybot
+  - name: Limit file changes to records.json only
+    conditions:
+      - files != records.json
+    actions:
+      label:
+        add:
+          - "⚠️Pending: response"
+        remove: []
+        toggle: []
+      review:
+        type: REQUEST_CHANGES
+        message: Hello! Please do not modify files other than `records.json`.
+        bot_account: katorlybot
+  - name: Check whether applicant modifies files correctly after their commit changes
+    conditions:
+      - "#commits > 1"
+      - files = records.json
+    actions:
+      label:
+        add: []
+        remove:
+          - "⚠️Pending: response"
+        toggle: []
