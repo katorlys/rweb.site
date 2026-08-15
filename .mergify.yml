@@ -1,0 +1,38 @@
+pull_request_rules:
+  - name: Keep PRs up to date
+    conditions:
+      - -draft
+      - -merged
+      - -closed
+      - -locked
+      - "#commits-behind >= 1"
+    actions:
+      update:
+  - name: Check whether only records.json is changed
+    conditions:
+      - -draft
+      - -merged
+      - -closed
+      - -locked
+      - not:
+          and:
+            - "#files = 1"
+            - modified-files = records.json
+    actions:
+      label:
+        add:
+          - "⚠️Pending: response"
+        remove: []
+        toggle: []
+      comment:
+        message: Hello! You should change files no other than `records.json`.
+  - name: Remind users to check when mentioning Vercel
+    conditions:
+      - -draft
+      - -merged
+      - -closed
+      - -locked
+      - body ~= (?i)vercel
+    actions:
+      comment:
+        message: Hello! If your website is hosted on Vercel, please make sure you have completed Step 4 in https://github.com/katorlys/rweb.site/wiki/Vercel, and paste the TXT record here.
