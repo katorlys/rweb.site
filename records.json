@@ -1,4 +1,3 @@
-
 {
   "cname": {
     "1dst": "1d10t1c-stud10s.github.io",
@@ -16,6 +15,7 @@
     "assets": "assetsportal.blogspot.com",
     "aurorabot": "aurora-7qp.pages.dev",
     "better-epub": "pablodcruz.github.io",
+    "binwaqaa": "hassan82172-tech.github.io",
     "bytecord": "bytecordweb.vercel.app",
     "channel101": "channel101.github.io",
     "chowdhurymuhtadeemaheer": "ghs.googlehosted.com",
@@ -102,8 +102,7 @@
     "weblog": "weblogbd.vercel.app",
     "whoshub": "frdze.github.io",
     "www": "katorlys.github.io",
-    "yixboost": "naslambers.synology.me",
-    "binwaqaa": "hassan82172-tech.github.io"
+    "yixboost": "naslambers.synology.me"
   },
   "ns": {
     "easyassets": [
