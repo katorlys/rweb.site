@@ -7,7 +7,7 @@ name: records.json validation
 # - For pushes to main, commit the sorted records.json automatically.
 
 on:
-  pull_request:
+  pull_request_target:
     paths:
       - records.json
   push:
@@ -18,21 +18,38 @@ on:
 
 permissions:
   contents: write
+  issues: write
   pull-requests: write
 
 jobs:
   validate-and-sort:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v6
+      - name: Download Pull Request records
+        if: github.event_name == 'pull_request_target'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          HEAD_REPOSITORY: ${{ github.event.pull_request.head.repo.full_name }}
+          HEAD_SHA: ${{ github.event.pull_request.head.sha }}
+        run: >-
+          gh api
+          -H "Accept: application/vnd.github.raw+json"
+          "/repos/$HEAD_REPOSITORY/contents/records.json?ref=$HEAD_SHA"
+          > records.json
+      - name: Check out main
+        if: github.event_name == 'push'
+        uses: actions/checkout@v6
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
       - name: Validate and sort
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PR_NUMBER: ${{ github.event.pull_request.number }}
+          ORIGINAL_RECORDS: ${{ runner.temp }}/records.json
         run: |
           set -e
+
+          cp records.json "$ORIGINAL_RECORDS"
 
           if ! python - <<'PY'
           import json
@@ -46,19 +63,19 @@ jobs:
           PY
           then
             echo "::error file=records.json::records.json contains invalid JSON."
-            if [ "${{ github.event_name }}" = "pull_request" ]; then
-              gh pr comment "$PR_NUMBER" --body "Hello! records.json is invalid. Please fix the JSON syntax so we can merge your Pull Request." || true
+            if [ "${{ github.event_name }}" = "pull_request_target" ]; then
+              gh pr comment "$PR_NUMBER" --repo "$GITHUB_REPOSITORY" --body "Hello! records.json is invalid. Please fix the JSON syntax so we can merge your Pull Request." || true
             fi
             exit 1
           fi
 
-          if git diff --quiet -- records.json; then
+          if cmp --silent "$ORIGINAL_RECORDS" records.json; then
             exit 0
           fi
 
-          if [ "${{ github.event_name }}" = "pull_request" ]; then
+          if [ "${{ github.event_name }}" = "pull_request_target" ]; then
             echo "::error file=records.json::records.json is not sorted."
-            gh pr comment "$PR_NUMBER" --body "Hello! records.json is not sorted. Please sort it so we can merge your Pull Request." || true
+            gh pr comment "$PR_NUMBER" --repo "$GITHUB_REPOSITORY" --body "Hello! records.json is not sorted. Please sort it so we can merge your Pull Request." || true
             exit 1
           fi
 
