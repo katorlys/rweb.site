@@ -1,6 +1,5 @@
 {
   "cname": {
-    "markup": "markup-docs.vercel.app",
     "1dst": "1d10t1c-stud10s.github.io",
     "7ames": "7ames-website.pages.dev",
     "aashish-anil": "ashphotfolio.vercel.app",
@@ -60,6 +59,7 @@
     "liu": "cname.tony-liu.com",
     "luxhost": "luxstories.github.io",
     "lyhoangkhang": "lyhoangkhang.vercel.app",
+    "markup": "markup-docs.vercel.app",
     "maxvel187": "alternativeendpointdomains.vercel.app",
     "moji-kakushi": "2ndnuts.github.io",
     "mwth": "blogsmwth.vercel.app",
