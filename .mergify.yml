@@ -1,13 +1,4 @@
 pull_request_rules:
-  - name: Keep PRs up to date
-    conditions:
-      - -draft
-      - -merged
-      - -closed
-      - -locked
-      - "#commits-behind >= 1"
-    actions:
-      update:
   - name: Check whether only records.json is changed
     conditions:
       - -draft
@@ -36,3 +27,5 @@ pull_request_rules:
     actions:
       comment:
         message: Hello! If your website is hosted on Vercel, please make sure you have completed Step 4 in https://github.com/katorlys/rweb.site/wiki/Vercel, and paste the TXT record here.
+merge_queue:
+  queue_controls_comment: false
